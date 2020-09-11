@@ -75,11 +75,14 @@ p {
   background: #f7c08a;
   color: #333;
 }
+
+.clr {
+  clear: both;
+}
 /* Logo */
 .logo {
   font-size: 34px;
 }
-
 
 /* Navbar */
 #navbar {
@@ -178,4 +181,12 @@ p {
 
 .box i {
   margin-bottom: 10px;
+}
+
+/* Footer */
+#main-footer {
+  text-align: center;
+  background: #7e7e7e;
+  color: #fff;
+  padding: 20px;
 }

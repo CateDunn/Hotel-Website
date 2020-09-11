@@ -1,5 +1,4 @@
 /* CSS Reset */
-
 * {
   margin: 0;
   padding: 0;
@@ -48,7 +47,6 @@ p {
   padding: 13px 20px;
   border-radius: 5px;
   cursor: pointer;
-
 }
 
 .btn:hover {
@@ -85,11 +83,9 @@ p {
 }
 
 /* Padding */
-
 .py-1 {padding: 10px 0;}
 .py-2 {padding: 20px 0;}
 .py-3 {padding: 30px 0;}
-
 
 /* Logo */
 .logo {
@@ -116,7 +112,6 @@ p {
 #navbar ul {
   float: right;
   list-style: none;
-  
 }
 
 #navbar ul li {
@@ -158,7 +153,6 @@ p {
 }
 
 /* Home Info */
-
 #home-info {
   height: 400px;
 }
@@ -219,7 +213,6 @@ p {
   min-height: 100%;
 }
 
-
 /* Testimonials */
 .testimonials {
   height: 600px;
@@ -247,6 +240,32 @@ p {
   border-radius: 50%;
 }
 
+/* Contact Form*/
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline:none;
+  border-color: #f7c08a;
+}
 
 /* Footer */
 #main-footer {

@@ -46,7 +46,7 @@ p {
   color: #fff;
   background: #5F5F5F;
   padding: 13px 20px;
-  border: none;
+  border-radius: 5px;
   cursor: pointer;
 
 }
@@ -56,6 +56,20 @@ p {
   color: #333;
 }
 
+.btn-light {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.bg-dark {
+  background: #5F5F5F;
+  color: #fff;
+}
+
+.bg-light {
+  background: #f7c08a;
+
+}
 /* Logo */
 .logo {
   font-size: 34px;
@@ -121,4 +135,30 @@ p {
 #showcase .showcase-content p{
   padding-bottom: 20px;
   line-height: 1.7em;
+}
+
+/* Home Info */
+
+#home-info {
+  height: 400px;
+}
+
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  background: url('/img/photo-1.jpg') no-repeat;
+  min-height: 100%;
+}
+
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px;
 }
